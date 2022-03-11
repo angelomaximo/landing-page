@@ -20,6 +20,18 @@ a {
     color: #E5E7EB;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 8px 32px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
 /* header */
 
 .header {
@@ -27,8 +39,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 64px;
-    padding-top: 0;
+    padding: 16px 256px;
 }
 
 .logo {
@@ -45,7 +56,7 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 64px 64px;
+    padding: 64px 256px;
     gap: 64px;
 }
 
@@ -65,22 +76,109 @@ a {
     margin: 0 5px;
 }
 
-img {
+.img-1 {
     flex: 1;
     max-height: 614px;
     max-width: 409px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px #F9FAF8;
-}
-
-.btn {
-    padding: 8px 32px;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 10px;
 }
 
 .btn.btn-blue {
     background-color: #3882f6;
     align-self: flex-start;
+}
+
+/* info */
+
+.info {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 64px 256px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.card {
+    height: 200px;
+    max-width: auto;
+    border-radius: 16px;
+}
+
+.div-card {
+    flex: 1;
+}
+
+
+/* quote */
+
+.quote-container {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 256px;
+}
+
+.quote-box {
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 10;
+    font-style: italic;
+}
+
+.author-box {
+    align-self: flex-end;
+}
+
+/* cta */
+
+.container-cta {
+    background-color: #fff;
+    padding: 64px 256px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn.btn-empty {
+    border: 2px solid #fff;
+}
+
+.btn.btn-empty:hover {
+    background-color: #fff;
+    color: #3882f6;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
