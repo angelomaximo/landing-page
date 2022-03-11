@@ -25,9 +25,10 @@ a {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 8px 64px;
+    padding-top: 0;
 }
 
 .logo {
@@ -43,8 +44,9 @@ a {
     color: #f9faf8;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    padding: 64px 64px;
+    gap: 64px;
 }
 
 .hero-container {
@@ -67,6 +69,8 @@ img {
     flex: 1;
     max-height: 614px;
     max-width: 409px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #F9FAF8;
 }
 
 .btn {
